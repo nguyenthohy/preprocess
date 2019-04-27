@@ -11,12 +11,12 @@ from pyvi import ViTokenizer
 
 class pre_process_raw_text:
     @staticmethod
-    def clean_text(self, url_file=''):
+    def clean_text(url_file=''):
         data_parse = {}
         keyword_processor = KeywordProcessor()
         keyword_processor.add_keyword_from_file('vietnamese-stopwords-dash.txt')
 
-        with open('url_file', 'r+') as data_file:
+        with open(url_file, 'r+') as data_file:
             data = csv.reader(data_file)
             for row in data:
                 i = 0

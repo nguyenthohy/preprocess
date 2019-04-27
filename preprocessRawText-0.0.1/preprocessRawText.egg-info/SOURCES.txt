@@ -1,8 +1,0 @@
-README.md
-setup.py
-preprocessRawText/__init__.py
-preprocessRawText/pre_process_raw_text.py
-preprocessRawText.egg-info/PKG-INFO
-preprocessRawText.egg-info/SOURCES.txt
-preprocessRawText.egg-info/dependency_links.txt
-preprocessRawText.egg-info/top_level.txt

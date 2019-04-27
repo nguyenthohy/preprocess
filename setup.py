@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="preprocessRawText",
-    version="0.0.1",
+    version="0.0.2",
     author="nguyentho",
     author_email="nguyentho0207@gmail.com",
     description="preprocessRawText NLP",
