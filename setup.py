@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="preprocessRawText",
-    version="0.0.2",
+    version="0.0.4",
     author="nguyentho",
     author_email="nguyentho0207@gmail.com",
     description="preprocessRawText NLP",
@@ -14,8 +14,19 @@ setuptools.setup(
     url="https://github.com/nguyenthohy/preprocess.git",
     packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Operating System :: OS Independent',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
     ],
+
+    package_data={
+            'preprocess': ['vietnamese-stopwords-dash.txt']
+        },
+
+    install_requires=['flashtext', 'gensim', 'pyvi'],
+
 )

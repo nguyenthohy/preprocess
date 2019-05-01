@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: preprocessRawText
-Version: 0.0.2
+Version: 0.0.4
 Summary: preprocessRawText NLP
 Home-page: https://github.com/nguyenthohy/preprocess.git
 Author: nguyentho
@@ -10,7 +10,11 @@ Description: # preprocessRawText
         preprocessRawText NLP
         
 Platform: UNKNOWN
-Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
 Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
 Description-Content-Type: text/markdown
