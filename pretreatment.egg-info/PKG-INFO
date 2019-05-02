@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: preprocessRawText
-Version: 0.0.12
+Name: pretreatment
+Version: 0.0.1
 Summary: preprocessRawText NLP
 Home-page: https://github.com/nguyenthohy/preprocess.git
 Author: nguyentho
