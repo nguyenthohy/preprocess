@@ -2,6 +2,7 @@
 preprocessRawText NLP
 
 - Chạy lệnh cài đặt : sudo pip install preprocessRawText
+- Cập nhật phiên bản mới nhất : sudo pip install —upgrade preprocessRawText
 - có 2 funtion :
     + clean_text(text) : truyền vào 1 đoạn text và trả về text đã được xử lý
     + clean_text_file(url): truyền vào url file csv (có định dạng string) và trả về 1 json
