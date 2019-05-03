@@ -32,11 +32,12 @@ def clean_text_file(url_file=''):
                             contents_parsed = ViTokenizer.tokenize(contents_parsed)  # phân từ đơn từ ghép
 
                             extract_stopwords = keyword_processor.extract_keywords(contents_parsed)
+                            extract_stopwords = set(extract_stopwords)
                             for stopword in extract_stopwords:
-                                contents_parsed = contents_parsed.replace(stopword, '')  # xóa stopword
+                                keyword_processor.add_keyword(stopword, '')
 
-                            contents_parsed = strip_multiple_whitespaces(
-                                contents_parsed)  # Chuẩn hóa để mỗi từ cách nhau một khoảng trắng
+                            contents_parsed = keyword_processor.replace_keywords(contents_parsed)  # xóa các từ có trong stop word
+                            contents_parsed = strip_multiple_whitespaces(contents_parsed)  # Chuẩn hóa để mỗi từ cách nhau một khoảng trắng
                             sentence_parse.append(contents_parsed)
 
                         except Exception as e:
